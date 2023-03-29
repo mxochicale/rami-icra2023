@@ -2,7 +2,8 @@
 ## pycharm project path
 .idea
 
-## ignore datapaths **/data/experiments/user*
+## ignore datapaths 
+**/data/experiments
 
 ## temporal __pycache__/
 **/__pycache__/
