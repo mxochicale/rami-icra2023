@@ -1,0 +1,26 @@
+## USAGE
+## UPDATE CONDA: conda update -n base -c defaults conda
+## conda list -n *VE # show list of installed packages
+## conda env create -f *ve.yml   		    ## INSTALL
+## conda env update --file *ve.yml --prune  	## UPDATE
+## conda activate *VE   			            ## ACTIVATE
+## conda remove -n *VE --all			        ## REMOVE
+
+name: rami2023VE
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.8.*
+  - pytorch
+  - cudatoolkit
+  - pip
+  - pip:
+     - opencv-contrib-python-headless
+     - thread6 #from threading import Thread
+     - matplotlib
+     - numpy
+     - jupyter
+     - pandas
+     - seaborn
+     - scikit-image
