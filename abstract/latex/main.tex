@@ -149,8 +149,9 @@ This paper is divided into robotic ultrasound-guidance procedures, framework for
 % \section{SIMPLE FRAMEWORK OF SONOGRAPHER SKILL TRANSFER LEARNING FOR ROBOTIC ULTRASOUND-GUIDANCE PROCEDURES}
 \section{ROBOTIC ULTRASOUND-GUIDANCE PROCEDURES}
 Robotic ultrasound systems are actively investigated for teleoperatation, semi-autonomous and fully autonomous modalities~\cite{vonHaxthausen2021}.
-For instance, Deng et al. proposed a multi-modal task learning architecture for ultrasound scanning skills with input data from ultrasound images, force and probe pose, stating the challenge of real-time guidance due computational signal processing~\cite{deng2021}.
-Robotic US-guidance radiation therapy for lesion in abdomen has been successful using CNN-based search, however treatment plans without US-robot guidance are still superior to robotic US-guidance because of the quality of acquired ultrasound images~\cite{Gerlach2022}. 
+For instance, Deng et al. proposed a multi-modal task learning architecture for ultrasound scanning skills with input data from ultrasound images, force and probe pose, stating the challenge of real-time guidance due to computational signal processing~\cite{deng2021}.
+Robotic US-guidance radiation therapy for lesion in abdomen has been successful using CNN-based search.
+However treatment plans without US-robot guidance are still superior to robotic US-guidance because of the quality of acquired ultrasound images~\cite{Gerlach2022}. 
 % Recently, robotic minimally invasive surgery has been investigated with silica gel phantoms where the optical tracking system, from Vicon Motion Systems Ltd, was prone to deviations due to light occlusions~\cite{niu2022}.
 
 %%---------------------------------(FIGURE)-------------------------------------
@@ -183,9 +184,9 @@ Modelling the optimal scanning plane (OSP) requires ultrasound images, spacial l
 Current systems to model OPS are expensive and cumbersome leading to the need of smaller and low-cost systems~\cite{Dressler2021}. 
 % This leads to systems that are expensive and 
 % the need for simpler, affordable and less invasive framework for skill transfer learning. 
-One potential avenue to reduce cost and ergonomic form factor is (a) the use of Inertial Measurement Units (IMU) to track position US images~\cite{PREVOST2018187}
+One potential avenue to reduce cost and ergonomic form factor is (a) the use of Inertial Measurement Units (IMU) to track probe position during US scanning procedures~\cite{PREVOST2018187}
 and (b) the application of the appropriate fusion techniques of ultrasound video signal and motion signal from IMU for probe guidance~\cite{droste2020}, and (c) computationally efficient neural networks models~\cite{deng2021}.
-Hence, we introduce a framework for sonographer skills transfer learning, considering: sampling technique and fusion sensor techniques (IMU and US) and discuss the need of real-time guidance with  pruned and quantised neural network models, feature extraction and transfer learning for a to robotic-ultrasound-guidance procedures (Fig~\ref{fig:main}b, c).
+Hence, we introduce a framework for sonographer skills transfer learning, considering: sampling technique and fusion sensor techniques (IMU and US) and discuss the need of real-time guidance with  pruned and quantised neural network models, feature extraction and transfer learning for robotic-ultrasound-guidance procedures (Fig~\ref{fig:main}b, c).
 %%%BLURS
 
 % Recently, Deng et al. investigated ultrasound skill learning with VGG-16 and fully connected layers by modelling relationships among US images, the probe pose and the contact force~\cite{deng2021}.
@@ -209,11 +210,11 @@ Hence, we introduce a framework for sonographer skills transfer learning, consid
 Considering fetal biometry parameters from the NHS 20-week screening scan protocol and National Health Service (NHS) foetal anomaly screening programme (FASP)~\cite{NHS_england2022},
 % NICE2022
 we conducted a pilot experiment with three participants (two non-clinical and one clinical with 10 years of experience in echocardiography).
-During the experiment, we asked participants to find the optimal scanning plane of the four chamber view of foetal ultrasound examination phantom ("SPACE FAN-ST", Kyoto Kagaku Co., Ltd, Kyoto, Japan).
+During the experiment, we asked participants to find the optimal scanning plane for the four chamber view of foetal ultrasound examination phantom ("SPACE FAN-ST", Kyoto Kagaku Co., Ltd, Kyoto, Japan).
 We attached inertial sensors (LPMS-B2, LP-Research Inc., Tokyo, Japan) to a convex US probe to track the pose of the ultrasound image from a clinical ultrasound device (EPIQ 7G, Koninklijke Philips N.V., Amsterdam, Netherlands) with the use of a CPU laptop computer that streamed images via a USB framegrabber (Mirabox).
 
 \subsection{Experimental results}
-Fig~\ref{fig:results} shows the time series from one experienced clinician and on non-clinicians while looking for an optimal scanning plane of the four-chamber view.
+Fig~\ref{fig:results} shows the time series from one experienced clinician and one non-clinicians while looking for an optimal scanning plane of the four-chamber view.
 It can be noted that the expert took less time (2500 samples) to find an optimal scanning plane whereas non-clinician took a greater time (5000 samples).
 Similarly, the time-series for the experienced clinician appear to be more smooth and consistent compared to the jerkiness of non-clinical participants. 
 %%---------------------------------(FIGURE)-------------------------------------
