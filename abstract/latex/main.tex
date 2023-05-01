@@ -116,7 +116,7 @@ Towards a Simple Framework of Skill Transfer Learning for \\ Robotic Ultrasound-
 \begin{abstract}
 In this paper, we present a simple framework of skill transfer learning for robotic ultrasound-guidance procedures.
 We briefly review challenges in skill transfer learning for robotic ultrasound-guidance procedures and identified the need of appropriate sampling techniques, computationally efficient neural networks models that lead to the proposal of a simple framework of skill transfer learning for real-time applications in robotic ultrasound-guidance procedures.
-We present pilot experiments from twp participants (one experienced clinician and one non-clinician) looking for an optimal scanning plane of the four-chamber cardiac view from a fetal phantom.
+We present pilot experiments from two participants (one experienced clinician and one non-clinician) looking for an optimal scanning plane of the four-chamber cardiac view from a fetal phantom.
 We analysed ultrasound image frames, time series of texture image features and quaternions and found that the experienced clinician performed the procedure in a quicker and smoother way compared to lengthy and non-constant movements from non-clinicians.
 For future work, we pointed out
 the need of pruned and quantised neural network models
@@ -214,17 +214,17 @@ During the experiment, we asked participants to find the optimal scanning plane 
 We attached inertial sensors (LPMS-B2, LP-Research Inc., Tokyo, Japan) to a convex US probe to track the pose of the ultrasound image from a clinical ultrasound device (EPIQ 7G, Koninklijke Philips N.V., Amsterdam, Netherlands) with the use of a CPU laptop computer that streamed images via a USB framegrabber (Mirabox).
 
 \subsection{Experimental results}
-Fig~\ref{fig:results} shows the time series from one experienced clinician and one non-clinicians while looking for an optimal scanning plane of the four-chamber view.
-It can be noted that the expert took less time (2500 samples) to find an optimal scanning plane whereas non-clinician took a greater time (5000 samples).
-Similarly, the time-series for the experienced clinician appear to be more smooth and consistent compared to the jerkiness of non-clinical participants. 
+Fig~\ref{fig:results} shows the time series from one experienced clinician and one non-clinician while looking for an optimal scanning plane of the four-chamber view.
+It can be noted that the expert took less time (1600 and 2500 samples) to find an optimal scanning plane whereas non-clinician took a greater time (5000 and 10000 samples).
+Similarly, the time-series for the experienced clinician appear to be more smooth and consistent compared to the jerkiness of non-clinical participant. 
 %%---------------------------------(FIGURE)-------------------------------------
 \begin{figure}[t]
 % \begin{figure*}[th] % two-column figure on desired page
 \centering
-\includegraphics[width=0.25\textwidth]{results-02-participants-01-trials/outputs/drawing-v00} %%LOCAL/GITHUBi
+\includegraphics[width=0.44\textwidth]{results-02-participants-02-trials/outputs/drawing-v00} %%LOCAL/GITHUB
 %\includegraphics[width=0.25\textwidth]{results-v2.png} %%OVERLEAF and ARXIV
 \caption{
-Ultrasound image frames, image distributions, image texture features (energy, Angular Second Momentum ASM, and homogeneity) and pose time-series (quaternions) from one experienced clinician and one non-clinician, looking for four-chamber optimal scanning plane. 
+Ultrasound image frames, image distributions, image texture features (energy, Angular Second Momentum ASM, and homogeneity) and pose time-series (quaternions) from one experienced clinician (clinician01) and one non-clinician (non-clinician01) in two trials (trial01 and trial02), looking for four-chamber optimal scanning plane. 
        } 
 \label{fig:results}
 % \end{figure*}
@@ -253,7 +253,7 @@ Ultrasound image frames, image distributions, image texture features (energy, An
  
 \section{CONCLUSIONS AND FUTURE WORK}
 We have presented a simple framework of skill transfer learning for robotic ultrasound-guidance procedures.
-We presented sensor fusion methods and sampling rate techniques for optimal scanning plane of the four-chamber view from three participants (one experienced clinician and two non-clinicians), where experienced clinician showed an smother and quicker procedure compare to a lengthy and non-constant movement of non-clinicians.
+We presented sensor fusion methods and sampling rate techniques for optimal scanning plane of the four-chamber view from two participants (one experienced clinician and one non-clinicians), where experienced clinician showed an smother and quicker procedure compare to a lengthy and non-constant movement of non-clinician.
 For future work, we pointed out the need of pruned and quantised neural network models for real-time applications in robotic ultrasound-guidance procedure. 
 % and a reproducible software/hardware pipeline to collect skills from clinicians to transfer them into a 
 % simulated and r 
