@@ -8,7 +8,8 @@ Tsz Yan Leung 2 and Miguel Xochicale 1
 
 ## Abstract
 In this paper, we present a simple framework of skill transfer learning for robotic ultrasound-guidance procedures.
-We briefly review challenges in skill transfer learning for robotic ultrasound-guidance procedures and identified the need of appropriate sampling techniques, computationally efficient neural networks models that lead to the proposal of a simple framework of skill transfer learning for real-time applications in robotic ultrasound-guidance procedures.
+We briefly review challenges in skill transfer learning for robotic ultrasound-guidance procedures.
+We then identify the need of appropriate sampling techniques, computationally efficient neural networks models that lead to the proposal of a simple framework of skill transfer learning for real-time applications in robotic ultrasound-guidance procedures.
 We present pilot experiments from two participants (one experienced clinician and one non-clinician) looking for an optimal scanning plane of the four-chamber cardiac view from a fetal phantom.
 We analysed ultrasound image frames, time series of texture image features and quaternions and found that the experienced clinician performed the procedure in a quicker and smoother way compared to lengthy and non-constant movements from non-clinicians.
 For future work, we pointed out
@@ -16,6 +17,7 @@ the need of pruned and quantised neural network models
 for real-time applications in robotic ultrasound-guidance
 procedure.
 The resources to reproduce this work are available at \url{https://github.com/mxochicale/rami-icra2023}.
+
 
 ![fig](abstract/figures/framework/outputs/drawing-v00.png)
 **Figure.** (a) Ultrasound-guidance procedures: sonographer operating an ultrasound machine with fetal phantom and sensor fusion signals from inertial sensors and ultrasound imaging;
