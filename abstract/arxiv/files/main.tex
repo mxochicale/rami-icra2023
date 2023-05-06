@@ -115,7 +115,8 @@ Towards a Simple Framework of Skill Transfer Learning for \\ Robotic Ultrasound-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 In this paper, we present a simple framework of skill transfer learning for robotic ultrasound-guidance procedures.
-We briefly review challenges in skill transfer learning for robotic ultrasound-guidance procedures and identified the need of appropriate sampling techniques, computationally efficient neural networks models that lead to the proposal of a simple framework of skill transfer learning for real-time applications in robotic ultrasound-guidance procedures.
+We briefly review challenges in skill transfer learning for robotic ultrasound-guidance procedures.
+We then identify the need of appropriate sampling techniques, computationally efficient neural networks models that lead to the proposal of a simple framework of skill transfer learning for real-time applications in robotic ultrasound-guidance procedures.
 We present pilot experiments from two participants (one experienced clinician and one non-clinician) looking for an optimal scanning plane of the four-chamber cardiac view from a fetal phantom.
 We analysed ultrasound image frames, time series of texture image features and quaternions and found that the experienced clinician performed the procedure in a quicker and smoother way compared to lengthy and non-constant movements from non-clinicians.
 For future work, we pointed out
@@ -151,7 +152,7 @@ This paper is divided into robotic ultrasound-guidance procedures, framework for
 Robotic ultrasound systems are actively investigated for teleoperatation, semi-autonomous and fully autonomous modalities~\cite{vonHaxthausen2021}.
 For instance, Deng et al. proposed a multi-modal task learning architecture for ultrasound scanning skills with input data from ultrasound images, force and probe pose, stating the challenge of real-time guidance due to computational signal processing~\cite{deng2021}.
 Robotic US-guidance radiation therapy for lesion in abdomen has been successful using CNN-based search.
-However treatment plans without US-robot guidance are still superior to robotic US-guidance because of the quality of acquired ultrasound images~\cite{Gerlach2022}. 
+However, treatment plans without US-robot guidance are still superior to robotic US-guidance because of the quality of acquired ultrasound images~\cite{Gerlach2022}.
 % Recently, robotic minimally invasive surgery has been investigated with silica gel phantoms where the optical tracking system, from Vicon Motion Systems Ltd, was prone to deviations due to light occlusions~\cite{niu2022}.
 
 %%---------------------------------(FIGURE)-------------------------------------
@@ -209,7 +210,7 @@ Hence, we introduce a framework for sonographer skills transfer learning, consid
 \subsection{Experiment setup}
 Considering fetal biometry parameters from the NHS 20-week screening scan protocol and National Health Service (NHS) foetal anomaly screening programme (FASP)~\cite{NHS_england2022},
 % NICE2022
-we conducted a pilot experiment with three participants (two non-clinical and one clinical with 10 years of experience in echocardiography).
+we conducted a pilot experiment with two participants (one non-clinical and one clinical with 10 years of experience in echocardiography).
 During the experiment, we asked participants to find the optimal scanning plane for the four chamber view of foetal ultrasound examination phantom ("SPACE FAN-ST", Kyoto Kagaku Co., Ltd, Kyoto, Japan).
 We attached inertial sensors (LPMS-B2, LP-Research Inc., Tokyo, Japan) to a convex US probe to track the pose of the ultrasound image from a clinical ultrasound device (EPIQ 7G, Koninklijke Philips N.V., Amsterdam, Netherlands) with the use of a CPU laptop computer that streamed images via a USB framegrabber (Mirabox).
 

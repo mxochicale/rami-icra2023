@@ -29,7 +29,7 @@ Check that reference were appropriately called `evince main.pdf`
 
 	4.1 edit reference section as follows
 	```
-	%%\bibliography{../references/references}
+	% \bibliography{../../references/references}%%ARXIV
 	\input{main.bbl} %% uncomment for arxiv version
 	```
 
