@@ -25,7 +25,6 @@
 **/*.synctex.gz
 **/*.toc
 **/_minted-main
-**/*.bbl
 **/*.blg
 **/*.out
 **/comment.cut
