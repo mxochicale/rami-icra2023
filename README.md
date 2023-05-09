@@ -26,11 +26,13 @@ The resources to reproduce this work are available at \url{https://github.com/mx
 (b) Simple framework for skill transfer learning: collecting experience with sensors ($Pt_n$ pose and $St$ Signal), sampling method for fusion sensor ($\Delta_t$), and identified the need of computational efficient neural network model ($\Omega_\theta$), and output for high-dimensional model \cite{deng2021}, and 
 (c) Robotic ultrasound-guidance procedures: transformations, graphical user interface and simulation using robotic US-guidance light-weight 7 degrees-of-freedom robot (KUKA LBR Med 7) \cite{Gerlach2022, Ipsen2021}.
 
-## Robot-Assisted Medical Imaging (RAMI) ICRA workshop 2023 [:link:](https://sites.google.com/view/rami-icra-2023-workshop/home)
+## For the 2023 Robot-Assisted Medical Imaging (ICRA-RAMI) workshop
 Important dates:   
- * Abstract Submission Deadline: 15th March 2023， 24th March 2023 
+ * Abstract Submission Deadline: 15th March 2023， (extension 24th March 2023) 
  * Author Notification: 1st April 2023 
  * Workshop Date: 29th May 2023
+
+See program, accepted papers and further information about the 2023 ICRA-RAMI workshop [:link:](https://sites.google.com/view/rami-icra-2023-workshop/home).
 
 ## Clone repository
 * Generate your SSH keys as suggested [here](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) (or [here](https://github.com/mxochicale/tools/blob/main/github/SSH.md))
