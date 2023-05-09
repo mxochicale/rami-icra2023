@@ -6,6 +6,8 @@ Tsz Yan Leung 2 and Miguel Xochicale 1
 
 </div>
 
+[![article](https://img.shields.io/badge/article-arXiv-orange.svg)](https://arxiv.org/abs/2305.04004)
+
 ## Abstract
 In this paper, we present a simple framework of skill transfer learning for robotic ultrasound-guidance procedures.
 We briefly review challenges in skill transfer learning for robotic ultrasound-guidance procedures.
@@ -24,11 +26,13 @@ The resources to reproduce this work are available at \url{https://github.com/mx
 (b) Simple framework for skill transfer learning: collecting experience with sensors ($Pt_n$ pose and $St$ Signal), sampling method for fusion sensor ($\Delta_t$), and identified the need of computational efficient neural network model ($\Omega_\theta$), and output for high-dimensional model \cite{deng2021}, and 
 (c) Robotic ultrasound-guidance procedures: transformations, graphical user interface and simulation using robotic US-guidance light-weight 7 degrees-of-freedom robot (KUKA LBR Med 7) \cite{Gerlach2022, Ipsen2021}.
 
-## Robot-Assisted Medical Imaging (RAMI) ICRA workshop 2023 [:link:](https://sites.google.com/view/rami-icra-2023-workshop/home)
+## For the 2023 Robot-Assisted Medical Imaging (ICRA-RAMI) workshop
 Important dates:   
- * Abstract Submission Deadline: 15th March 2023， 24th March 2023 
+ * Abstract Submission Deadline: 15th March 2023， (extension 24th March 2023) 
  * Author Notification: 1st April 2023 
  * Workshop Date: 29th May 2023
+
+See program, accepted papers and further information about the 2023 ICRA-RAMI workshop [:link:](https://sites.google.com/view/rami-icra-2023-workshop/home).
 
 ## Clone repository
 * Generate your SSH keys as suggested [here](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) (or [here](https://github.com/mxochicale/tools/blob/main/github/SSH.md))
@@ -37,6 +41,23 @@ Important dates:
 cd && mkdir -p $HOME/repositories/mxochicale && cd  $HOME/repositories/mxochicale
 git clone git@github.com:mxochicale/rami-icra2023.git
 ```
+
+## Citations
+BibTeX to cite
+```
+@misc{leung-xochicale-rami-icra2023,
+      author={
+            Tsz Yan Leung and 
+            Miguel Xochicale},
+      title={
+            Towards a Simple Framework of Skill Transfer Learning for 
+            Robotic Ultrasound-guidance Procedures}, 
+      year={2023},
+      eprint={2305.04004},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+``` 
 
 ## Contributors
 Thanks goes to all these people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):  
