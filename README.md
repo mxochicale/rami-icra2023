@@ -6,6 +6,8 @@ Tsz Yan Leung 2 and Miguel Xochicale 1
 
 </div>
 
+[![article](https://img.shields.io/badge/article-arXiv-orange.svg)](https://arxiv.org/abs/2305.04004)
+
 ## Abstract
 In this paper, we present a simple framework of skill transfer learning for robotic ultrasound-guidance procedures.
 We briefly review challenges in skill transfer learning for robotic ultrasound-guidance procedures.
@@ -37,6 +39,23 @@ Important dates:
 cd && mkdir -p $HOME/repositories/mxochicale && cd  $HOME/repositories/mxochicale
 git clone git@github.com:mxochicale/rami-icra2023.git
 ```
+
+## Citations
+BibTeX to cite
+```
+@misc{leung-xochicale-rami-icra2023,
+      author={
+            Tsz Yan Leung and 
+            Miguel Xochicale},
+      title={
+            Towards a Simple Framework of Skill Transfer Learning for 
+            Robotic Ultrasound-guidance Procedures}, 
+      year={2023},
+      eprint={2305.04004},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+``` 
 
 ## Contributors
 Thanks goes to all these people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):  
