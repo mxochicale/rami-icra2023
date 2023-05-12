@@ -14,6 +14,9 @@
 ## ignores vim temporal files
 **/*.swp
 
+## ignores drawing-v**.png files
+**/drawing-v**.png
+
 ## temporal files for local tex build
 **/*.aux
 **/*.fdb_latexmk
