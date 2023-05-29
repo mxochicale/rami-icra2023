@@ -30,6 +30,15 @@ Our work is available at https://github.com/mxochicale/rami-icra2023
 ### LinkedIn
 
 
+Excited to present "Towards a Simple Framework of Skill Transfer Learning for Robotic Ultrasound-guidance Procedures" at the RAMI #ICRA2023 workshop @ieee_ras_icra
+
+Thanks to Tsz Yan (Goosie) Leung for her excellent contributions!
+
+The resources to reproduce our work are available at https://github.com/mxochicale/rami-icra2023
+
+Also have a look to the program with great list of speakers and presenters  organised by Zhongliang Jiang  ,  Stamatia (Matina) Giannarou and others > https://sites.google.com/view/rami-icra-2023-workshop/program 
+
+
 
 
 
