@@ -19,13 +19,13 @@ convert -verbose -density 50 -trim print_version_A0.pdf -quality 100 -flatten -s
 
 ## Social media messages
 ### twitter 
-Happy to share our poster and abstract for 
 
-Presenting 
-"Towards a Simple Framework of Skill Transfer Learning for Robotic Ultrasound-guidance Procedures" 
-at the RAMI #ICRA2023 workshop @ieee_ras_icra
+Excited to present "Towards a Simple Framework of Skill Transfer Learning for Robotic Ultrasound-guidance Procedures" at the RAMI #ICRA2023 workshop 
+@ieee_ras_icra
+ 
+Thanks to Tsz Yan (Goosie) Leung for her excellent contributions
+
 Our work is available at https://github.com/mxochicale/rami-icra2023
-Thanks to Tsz Yan Leung for her excellent contributions
 
 ### LinkedIn
 
