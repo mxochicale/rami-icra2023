@@ -8,6 +8,7 @@
 1. Open poster: 
 	inkscape $HOME/repositories/mxochicale/rami-icra2023/poster/resources/vectors/drawing-v08.svg
 2. GO TO PRINT
+3. SELECT `Print to File` and file, output format: PDF, Ranges: [x] All Pages, Copies: [1] Collocate
 3. RENDERING>BITMAP (300dpi default)
 4. PRINT
 
