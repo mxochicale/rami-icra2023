@@ -18,8 +18,8 @@ RM = rm -f
 EVINCE = evince
 
 ##Project name
-#PROJNAME=slides
 PROJNAME=slides
+#PROJNAME=slides-just-one
 
 ## Rules
 $(PROJNAME).pdf: $(PROJNAME).tex
